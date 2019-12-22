@@ -1,0 +1,202 @@
+﻿
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> BC SCANER </title>
+
+    @Styles.Render("~/WebApplication1/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-default navbar-static-top" role="banner">
+
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand">
+                        <a href="@Url.Action("","")"><h1>BC SCANER</h1></a>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <div class="menu">
+                        <ul class="nav nav-tabs" role="tablist">
+
+
+
+
+
+                            @if (Session["Username"] != null)
+                            {
+
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Home_menu, "Index", "Home")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.About_menu, "aboutus", "Home")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Scan_menu, "BarcodeReader", "Barcode")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Generate_menu, "generate", "Barcode")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Contact_menu, "Contact", "Home")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Logout_menu, "Logout", "User")</li>
+
+
+
+
+                                <h1> Welcome : @Session["Username"].ToString()</h1>
+                            }
+
+
+
+
+                            @if (Session["Username"] == null)
+                            {
+
+
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Home_menu, "Index", "Home")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.About_menu, "aboutus", "Home")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Scan_menu, "BarcodeReader", "Barcode")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Generate_menu, "generate", "Barcode")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Contact_menu, "Contact", "Home")</li>
+
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Signin_menu, "Login", "User")</li>
+                                <li>@Html.ActionLink(WebApplication1.Resource.Resource.Signup_menu, "Register", "User")</li>
+
+
+
+
+
+                            }
+
+
+
+
+                        </ul>
+
+
+
+
+
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+
+
+
+
+
+
+    @RenderBody()
+
+    <footer>
+        <div class="container">
+            <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <h4> @WebApplication1.Resource.Resource.AboutUs</h4>
+                <p></p>
+                <div class="contact-info">
+                    <ul>
+
+                        <li><a title="Home"><img src="~/Content/img/home.png" alt="" /></a>Esentepe Kampüsü, 54050 Serdivan/Sakarya</li>
+                        <li><a title="Home"><img src="~/Content/img/phone.png" alt="" /></a>+38 000 129900</li>
+                        <li><a title="Home"><img src="~/Content/img/web.png" alt="" /></a>info@domain.ne</li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="text-center">
+                    <h4> @WebApplication1.Resource.Resource.Photo</h4>
+                    <ul class="sidebar-gallery">
+
+                        @* <li><a href="#"><img src="~/Content/img/img7.jpg" alt="" /></a></li>
+                            <li><a href="#"><img src="~/Content/img/img7.jpg" alt="" /></a></li>
+                            <li><a href="#"><img src="~/Content/img/img7.jpg" alt="" /></a></li>
+                            <li><a href="#"><img src="~/Content/img/img7.jpg" alt="" /></a></li>
+                            <li><a href="#"><img src="~/Content/img/img7.jpg" alt="" /></a></li>
+                            <li><a href="#"><img src="~/Content/img/img7.jpg" alt="" /></a></li>
+                        *@
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="">
+                    <h4>Newsletter Registration</h4>
+                    <p>Subscribe to BC SCANER to receive the latest BC SCANER news via email. You may unsubscribe from this service at any time</p>
+                    <div class="btn-gamp">
+                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
+                    </div>
+                    <div class="btn-gamp">
+                        <a type="submit" class="btn btn-default">Subscribe</a>
+                    </div>
+
+                </div>
+
+            </div>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="social-icon">
+                <div class="col-md-4">
+                    <ul class="social-network">
+
+                        <li><a href="#" title="Twitter"><img src="~/Content/img/twitter.jpg" alt="" /></a></li>
+                        <li><a href="#" title="Google Plus"><img src="~/Content/img/gmail.png" alt="" /></a></li>
+                        <li><a href="#" title="youtube"><img src="~/Content/img/youtube.jpg" alt="" /></a></li>
+                        <li><a href="#" title="facebook"><img src="~/Content/img/facebook.png" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-md-offset-4">
+                <div class="copyright">
+                    &copy; BC SCAN 2015 by <a target="_blank" href="http://bcscaner.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Barcode scaner</a>.All Rights Reserved.
+
+                                           <ul class="nav navbar-nav navbar-right">
+                                               <li> @Html.ActionLink("En", ViewContext.RouteData.Values["action"].ToString(), ViewContext.RouteData.Values["controller"].ToString(), new { language = "en" }, null)</li>
+                                               <li> @Html.ActionLink("Tr", ViewContext.RouteData.Values["action"].ToString(), ViewContext.RouteData.Values["controller"].ToString(), new { language = "tr" }, null)</li>
+                                               <li> @Html.ActionLink("Th", ViewContext.RouteData.Values["action"].ToString(), ViewContext.RouteData.Values["controller"].ToString(), new { language = "th" }, null)</li>
+
+                                               @*    <li>@Html.ActionLink("EN", "Change", "Home", new { language = "en" }, null)</li>
+        <li>@Html.ActionLink("TR", "Change", "Home", new { language = "tr" }, null)</li>
+        <li>@Html.ActionLink("TH", "Change", "Home", new { language = "th" }, null)</li>
+                                               *@
+                                           </ul>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/WebApplication1/js")
+    <script>
+        wow = new WOW(
+            {
+
+            })
+            .init();
+    </script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

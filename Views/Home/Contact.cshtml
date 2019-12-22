@@ -1,0 +1,203 @@
+﻿
+<div class="map">
+    <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kuningan,+Jakarta+Capital+Region,+Indonesia&amp;aq=3&amp;oq=kuningan+&amp;sll=37.0625,-95.677068&amp;sspn=37.410045,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Kuningan&amp;t=m&amp;z=14&amp;ll=-6.238824,106.830177&amp;output=embed"></iframe>
+</div>
+
+@*   if (ViewBag.Success != null && ViewBag.Success)
+        {
+    <div id="wrapper">
+        <div id="message-sent">
+            <div id="close-button">
+                <span>X</span>
+            </div>
+            <span>Message sended</span>
+        </div>
+    </div>
+        }
+
+*@
+
+
+
+<section class="contact-page">
+    <div class="container">
+        <div class="text-center">
+            <h2>Drop Your Message</h2>
+            <p>
+                Our support team is available to answer your questions.
+                If you need any information, please feel free to fill out the following form.
+            </p>
+
+        </div>
+
+
+        <div class="row contact-wrap">
+            <div class="status alert alert-success" style="display: none"></div>
+            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="Contact">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <div class="form-group">
+
+
+                        <label>@WebApplication1.Resource.Resource.name</label>
+                        <input type="text" name="name" class="form-control" required="required">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>@WebApplication1.Resource.Resource.Email</label>
+                        <input type="email" name="email" class="form-control" required="required">
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label>@WebApplication1.Resource.Resource.phone</label>
+                        <input type="number" class="form-control">
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-sm-5">
+                    <div class="form-group">
+                        <label>@WebApplication1.Resource.Resource.subject</label>
+                        <input type="text" name="subject" class="form-control" required="required">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>@WebApplication1.Resource.Resource.message</label>
+                        <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">@WebApplication1.Resource.Resource.submitmessage</button>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <label class=" label-success">@ViewBag.Message</label>
+                    </div>
+
+
+                </div>
+            </form>
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#contact-page-->
+
+
+<script>
+    $(document).ready(function () {
+        $(".obligation-button").click(function () {
+            $(".contact-line-unrequired").slideToggle();
+        });
+    });
+
+    function formEksikMi() {
+        var rumuzDegeri = document.getElementById("input-nickname").value;
+        var epostaDegeri = document.getElementById("input-email").value;
+        var iletiDegeri = document.getElementById("input-text").value;
+        if (rumuzDegeri === "" || iletiDegeri === "" || epostaDegeri === "") {
+            alert("Lütfen gerekli alanlari doldurunuz.");
+            return false;
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+
+    <div class="map">
+        <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kuningan,+Jakarta+Capital+Region,+Indonesia&amp;aq=3&amp;oq=kuningan+&amp;sll=37.0625,-95.677068&amp;sspn=37.410045,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Kuningan&amp;t=m&amp;z=14&amp;ll=-6.238824,106.830177&amp;output=embed"></iframe>
+    </div>
+
+    <section class="contact-page">
+        <div class="container">
+            <div class="text-center">
+                <h2>Drop Your Message</h2>
+                <p>
+                    Our support team is available to answer your questions.
+                    If you need any information, please feel free to fill out the following form.
+                </p>
+            </div>
+            <div class="row contact-wrap">
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+
+
+                            <label>Name *</label>
+                            <input type="text" name="name" class="form-control" required="required">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" name="email" class="form-control" required="required">
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="number" class="form-control">
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <input type="text" name="subject" class="form-control" required="required">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit message</button>
+                        </div>
+
+
+
+                    </div>
+                </form>
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+*@
