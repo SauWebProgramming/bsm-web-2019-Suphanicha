@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs" xml:space="preserve">
+    <value>เกี่ยวกับเรา</value>
+  </data>
+  <data name="About_menu" xml:space="preserve">
+    <value>เกี่ยวกับเรา</value>
+  </data>
+  <data name="Barcode1" xml:space="preserve">
+    <value>บาร์โค้ด(barcode) หรือในภาษาไทยเรียกว่า “รหัสแท่ง” ประกอบด้วยเส้นมืด(มักจะเป็นสีดำ) และเส้นสว่าง(มักเป็นสีขาว)วางเรียงกันเป็นแนวดิ่ง เป็นรหัสแทนตัวเลขและตัวอักษร ใช้เพื่ออำนวยความสะดวกให้เครื่องคอมพิวเตอร์สามารถอ่านรหัสข้อมูลได้ง่ายขึ้น โดยใช้เครื่องอ่านบาร์โค้ด (Barcode Scanner) ซึ่งจะทำงานได้รวดเร็วและช่วยลดความผิดพลาดในการคีย์ข้อมูลได้มาก โดยหลักการแล้วบาร์โค้ดจะถูกอ่านด้วยเครื่องสแกนเนอร์ บันทึกข้อมูลเข้าไปเก็บในคอมพิวเตอร์โดยตรงไม่ต้องกดปุ่มที่แท่นพิมพ์ ทำให้มีความสะดวก รวดเร็วในการทำงานรวมถึงอ่านข้อมูลได้อย่างถูกต้องแม่นยำ เชื่อถือได้ และจะเห็นได้ชัดเจนว่าปัจจุบันระบบบาร์โค้ดเข้าไปมีบทบาทในทุกส่วนของอุตสาหกรรมการค้าขาย และการบริการ ที่ต้องใช้การบริหารจัดการข้อมูลจากฐานข้อมูลในคอมพิวเตอร์ และปัจจุบันมีกระประยุกต์การใช้งานบาร์โค้ดเข้ากับการใช้งานของMobile Computer ซึ่งสามารถพกพาได้สะดวก เพื่อทำการจัดเก็บแสดงผล ตรวจสอบ และประมวลในด้านอื่นๆ ได้ด้วย</value>
+  </data>
+  <data name="Barcode2" xml:space="preserve">
+    <value>เดิมนั้น บาร์โค้ด จะถูกนำมาใช้ในร้านขายของชำ, ปกหนังสือ, ร้านอุปกรณ์ประกอบรถยนต์และร้านอุปโภคบริโภคทั่วไป ในแถบยุโรป รถบรรทุกทุกคันที่จะต้องวิ่งระหว่างประเทศฝรั่งเศสและประเทศเยอรมนี จะต้องใช้แถบรหัสบาร์โค้ดที่หน้าต่างทุกคันเพื่อใช้ในการแสดงใบขับขี่ ใบอนุญาต และน้ำหนักรถบรรทุกเพื่อให้เจ้าหน้าที่ศุลกากรสามารถตรวจได้ง่ายและรวดเร็ว ในขณะที่รถลดความเร็วเครื่องตรวจจะอ่านข้อมูลจากบาร์โค้ด และแสดงข้อมูลบนเครื่องคอมพิวเตอร์ทันที
+เพื่อให้เข้าใจง่าย เราจะทำการแยกบาร์โค้ดออกเป็น 3 ประเภท ได้แก่ บาร์โค้ด 1 มิติ(Barcode 1D), 2 มิติ(Barcode 2D) และ 3 มิติ(Barcode 3D)</value>
+  </data>
+  <data name="Barcode3" xml:space="preserve">
+    <value>บาร์โค้ด 1 มิติมีลักษณะเป็นแถบประกอบด้วยเส้นสีดำสลับกับเส้นสีขาว ใช้แทนรหัสตัวเลขหรือตัวอักษรโดยสามารถบรรจุข้อมูลได้ประมาณ 20 ตัวอักษร การใช้งานบาร์โค้ดมักใช้ร่วมกับฐานข้อมูลคือเมื่ออ่านบาร์โค้ดและถอดรหัสแล้วจึงนำรหัสที่ได้ใช้เรียกข้อมูลจากฐานข้อมูลอีกต่อหนึ่ง 
+        ตัวอย่างประเภทของ บาร์โค้ด 1 มิติ เช่น Code 39, Code 128, Code EAN-13 ฯโดยข้อมูลในตัวบาร์โค้ด คือ "123456789012" แต่ลักษณะของบาร์โค้ดจะเปลี่ยนแปลงตามประเภทของบาร์โค้ดนั้นๆ   บาร์โค้ด 2 มิติเป็นเทคโนโลยีที่พัฒนาเพิ่มเติมจากบาร์โค้ด 1 มิติ โดยออกแบบให้บรรจุได้ทั้งในแนวตั้งและแนวนอน [1] ทำให้สามารถบรรจุข้อมูลมากได้ประมาณ 4,000 ตัวอักษรหรือประมาณ 200 เท่าของบาร์โค้ด 1 มิติในพื้นที่เท่ากันหรือเล็กกว่า ข้อมูลที่บรรจุสามารถใช้ภาษาอื่นนอกจากภาษาอังกฤษได้ เช่น ภาษาญี่ปุ่น จีน หรือเกาหลี เป็นต้นและบาร์โค้ด 2 มิติสามารถถอดรหัสได้แม้ภาพบาร์โค้ดบางส่วนมีการเสียหาย อุปกรณ์ที่ใช้อ่านและถอดรหัสบาร์โค้ด 2 มิติมีตั้งแต่เครื่องอ่านแบบซีซีดีหรือเครื่องอ่านแบบเลเซอร์เหมือนกับของบาร์โค้ด 1 มิติจนถึงโทรศัพท์มือถือแบบมีกล้องถ่ายรูปในตัวซึ่งติดตั้งโปรแกรมถอดรหัสไว้ ในส่วนลักษณะของบาร์โค้ด 2 มิติมีอยู่อย่างมากมายตามชนิดของบาร์โค้ด เช่น วงกลม สี่เหลี่ยมจัตุรัส หรือสี่เหลี่ยมผืนผ้าคล้ายกับบาร์โค้ด 2 มิติ</value>
+  </data>
+  <data name="Barcode4" xml:space="preserve">
+    <value>ภายในเครื่องอ่านจะมีอุปกรณ์เปลี่ยนแสงที่สะท้อนกลับมาให้กลายเป็นสัญญาณดิจิตอล ซึ่งนำมาเปรียบเทียบกับตารางบาร์โค้ดเพื่อถอดเป็นข้อมูล เช่น ตัวเลข ตัวอักษรหรือสัญลักษณ์ ซึ่งระบุชื่อสินค้าและอื่น ๆ จากนั้นจะบันทึกข้อมูลในคอมพิวเตอร์โดยตรง โดยไม่ต้องกดปุ่มที่แป้นพิมพ์ สามารถอ่านข้อมูลอย่างถูกต้องแม่นยำและเชื่อถือได้ 
+3. ระบบการอ่านบาร์โค้ดแสดงผลทั้งการอ่านข้อมูลตามปกติ และการตรวจสอบความถูกต้องของแท่งบาร์โค้ด สำหรับขั้นตอนการตรวจสอบความถูกต้อง หากพบข้อผิดพลาดโปรแกรมจะทำการแก้ไขและอ่านบาร์โค้ดใหม่อีกครั้ง มีความสะดวกในการจัดเก็บข้อมูล ตรวจสอบและประมวลได้อย่างแม่นยำมากขึ้น</value>
+  </data>
+  <data name="BarcodeHistory" xml:space="preserve">
+    <value>ประวัติของบาร์โค้ด</value>
+  </data>
+  <data name="click_menu" xml:space="preserve">
+    <value>คลิ๊กเพื่อนแสกน</value>
+  </data>
+  <data name="Contact_menu" xml:space="preserve">
+    <value>ติดต่อ</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>อีเมลล์</value>
+  </data>
+  <data name="EN_menu" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="Generator_menu" xml:space="preserve">
+    <value>สร้าง</value>
+  </data>
+  <data name="Home_menu" xml:space="preserve">
+    <value>หน้าแรก</value>
+  </data>
+  <data name="HowDoesBarcodeWork" xml:space="preserve">
+    <value>บาร์โค้ดทำงานอย่างไร </value>
+  </data>
+  <data name="LanguageCheng" xml:space="preserve">
+    <value> ภาษาไทย </value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>เพิ่มเติม</value>
+  </data>
+  <data name="Loginn" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="Login_successful" xml:space="preserve">
+    <value>เข้าสู้ระบบสำเร็จ</value>
+  </data>
+  <data name="Logout_menu" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>ข้อความ</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>โทรศัพท์</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>แกลลอรี่</value>
+  </data>
+  <data name="Register_menu" xml:space="preserve">
+    <value>สมัครสมาชิก</value>
+  </data>
+  <data name="registration" xml:space="preserve">
+    <value>สมัครสมาชิก</value>
+  </data>
+  <data name="Scan_menu" xml:space="preserve">
+    <value>แสกน</value>
+  </data>
+  <data name="Signin_menu" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="Signup_menu" xml:space="preserve">
+    <value>สมัครสมาชิก</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>ชื่อเรื่อง</value>
+  </data>
+  <data name="submitmessage" xml:space="preserve">
+    <value>ส่งข้อความ</value>
+  </data>
+  <data name="TypeOfBarcode" xml:space="preserve">
+    <value>ประเภทของบาร์โค้ด</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Hoş geldiniz</value>
+  </data>
+  <data name="whatisbarcode" xml:space="preserve">
+    <value>Barcode คืออะไร</value>
+  </data>
+</root>

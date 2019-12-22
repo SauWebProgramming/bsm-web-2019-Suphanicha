@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="About_menu" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Adminpage" xml:space="preserve">
+    <value>Admin </value>
+  </data>
+  <data name="Barcode1" xml:space="preserve">
+    <value>A barcode is an optical, machine-readable, representation of data; the data usually describes something
+                                about the object that carries the barcode.The barcode contains parallel black lines which are uniquely printed and
+                                contain some information. Each printed line is of varying width. The lines represents a number. You might find a
+                                number written below the barcode. The vertical lines represent the same number. Each number is encoded by seven
+                                lines of varying width. For example, digit 1 is represented by two white stripes, two black stripes,
+                                two white strips and one black strip. Similarly, all others digits have different format.
+
+                                The barcode contains information about the country in which it was generated,
+                                the manufacturer of the product and the product itself.</value>
+  </data>
+  <data name="Barcode2" xml:space="preserve">
+    <value>The concept for the barcode was developed by Norman Joseph Woodland, who drew a series of lines in the sand to represent
+                                Morse code, and Bernard Silver. A patent was granted in 1966 and NCR became the first company to develop a commercial scanner
+                                to read barcode symbology. A pack of Wrigley’s gum was the first item ever scanned, at Marsh’s supermarket in Troy, Ohio, NCR’s hometown.</value>
+  </data>
+  <data name="Barcode3" xml:space="preserve">
+    <value>There are mainly two types of barcode. The first one is 1-D barcode or one-dimensional barcode. In 1-D barcode
+                                the data is represented using only parallel lines of varying width. Sometime a number is also found below the encoded lines.
+                                The second one is 2-D barcode. In 2-D barcode, the data is represented using dots, rectangles, hexagons and other geometrical
+                                shapes. The 2-D barcodes later got different names on the basis who invented them.
+
+                                One of the most famous barcode is QR-code. QR-code was first used by an automotive company in Japan. It is an array of black
+                                and white rectangles. It is mainly used to store the URL of a website. The QR-code can be scanned using a smartphone camera as well.</value>
+  </data>
+  <data name="Barcode4" xml:space="preserve">
+    <value>You might find the barcode scanners in shopping malls or any retail stores. The working of barcode scanners is simple.
+                                The barcode scanner emits red light. This light is then thrown onto the black and white stripes. The amount of light reflected by these
+                                lines identifies the code.
+
+                                Another technology uses digital camera to identify the code. A photograph of the code is taken and the code in photo is processed by the
+                                computer. The same technology is used today in smartphone to scan the barcode or QR-code. The barcode can be read using smartphone camera.</value>
+  </data>
+  <data name="BarcodeHistory" xml:space="preserve">
+    <value>BARCODE HISTORY</value>
+  </data>
+  <data name="click_menu" xml:space="preserve">
+    <value>one click to scan</value>
+  </data>
+  <data name="Contact_menu" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>download</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Generate_menu" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Home_menu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="HowDoesBarcodeWork" xml:space="preserve">
+    <value>HOW DOES BARCODE SCANER WORK ?</value>
+  </data>
+  <data name="LanguageCheng" xml:space="preserve">
+    <value>English Language </value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="Login_successful" xml:space="preserve">
+    <value>Login successful</value>
+  </data>
+  <data name="Logout_menu" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photo Gallery</value>
+  </data>
+  <data name="Register_menu" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="Scan_menu" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="Signin_menu" xml:space="preserve">
+    <value>Signin</value>
+  </data>
+  <data name="Signup_menu" xml:space="preserve">
+    <value>Signup</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="submitmessage" xml:space="preserve">
+    <value>submit  message</value>
+  </data>
+  <data name="TypeOfBarcode" xml:space="preserve">
+    <value>TYPE OF BARCODE</value>
+  </data>
+  <data name="Userneme" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="whatisbarcode" xml:space="preserve">
+    <value>WHAT IS BARCODE ?</value>
+  </data>
+</root>
